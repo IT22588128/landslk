@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bank Payment</title>
+  <style>
+  /* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.bank-payment-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bank-payment-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.bank-payment-info {
+  margin-bottom: 30px;
+}
+
+.bank-payment-info p {
+  margin-bottom: 10px;
+}
+
+.bank-details h3 {
+  margin-bottom: 10px;
+}
+
+.bank-payment-button {
+  text-align: center;
+}
+
+.payment-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment-button:hover {
+  background-color: #45a049;
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="bank-payment-container">
+    <h1>Bank Payment</h1>
+    <div class="bank-payment-info">
+      <p>Make a payment by transferring the amount to the following bank account:</p>
+      <div class="bank-details">
+        <h3>Bank Name: Lanka land pvt.</h3>
+        <h3>Account Number: 1234567890</h3>
+        <h3>Account Holder: Dilina Jayalath</h3>
+      </div>
+      <p>Please include your order number as the payment reference.</p>
+    </div>
+    <div class="bank-payment-button">
+      <button class="payment-button" onclick="proceedToConfirmation()">Confirm Payment</button>
+    </div>
+  </div>
+
+
+  <script >function proceedToConfirmation() {
+
+  window.location.href = "landTable.php";
+}
+</script>
+</body>
+</html>

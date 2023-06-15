@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Options</title>
+  <style>
+  body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.payment-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-container h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.payment-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.payment-option {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.payment-option img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.payment-option h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.payment-option p {
+  margin-bottom: 20px;
+}
+
+.payment-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.payment-button:hover {
+  background-color: #45a049;
+}
+
+.payment-button:active {
+  background-color: #357934;
+}
+
+  </style>
+</head>
+<body>
+  <div class="payment-container">
+    <h1>Select Payment Option</h1>
+
+    <h3>Amount : Rs.990.00</h3>
+    <div class="payment-options">
+      <div class="payment-option">
+        <img src="src/bank.png" alt="Bank Payment">
+        <h3>Bank Payment</h3>
+        <p>Pay through bank transfer.</p>
+        <a href="bank.html" class="payment-button">Proceed</a>
+      </div>
+      <div class="payment-option">
+        <img src="src/card.png" alt="Card Payment">
+        <h3>Card Payment</h3>
+        <p>Pay securely with your credit card.</p>
+        <a href="payment.php" class="payment-button">Proceed</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
