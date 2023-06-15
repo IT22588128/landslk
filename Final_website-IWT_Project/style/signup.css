@@ -1,0 +1,89 @@
+
+.topics {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2a9662;
+    }
+.logo {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin-right: 350px
+}
+
+.logo-text1 {
+    float: left;
+    margin-top: 10px;
+    font-family: candara;
+    color: #2a9662;
+    font-size: 40px;
+}
+
+.logo-text2 {
+    float: left;
+    padding-top: 55px;
+    margin-left: -180px;
+    color: #2a9662;
+    font-family: garamond;
+}
+
+.login {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 250px;
+    margin-top: 15px;
+}
+
+
+
+.topics {
+    color: #2a9662;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Shrikhand', sans-serif;
+   
+}
+
+.kparah {
+    margin: 10px 10px; /* Specify margins: top/bottom left/right */
+    padding: 10px 120px 10px 120px; /* Specify padding: top/right/bottom/left */
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.submit {
+    background-color: #2a9662;
+    color:#fff;
+    border-radius:10px;
+    height:30px;
+    width:100px;
+}
+
+
+  
+button.submit {
+    /* Add your styles here */
+    background-color: #17741a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.submit:hover {
+    background-color: #709c75;
+  }
+  button[name="submit"] {
+    padding: 10px 20px;
+    background-color: #2a9662;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[name="submit"]:hover {
+    background-color: #1bad64;
+  }
+  

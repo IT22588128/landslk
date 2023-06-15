@@ -1,0 +1,243 @@
+ 
+*{
+	padding: 0;
+	margin: 0;
+  	box-sizing: border-box;
+ 	font-family: "Poppins", sans-serif;
+	scroll-behavior: smooth;
+	
+}
+
+    header{
+        opacity: 80%;
+        border-bottom-left-radius:50px ;
+        border-bottom-right-radius: 0;
+        position: absolute;
+        width: 78%;
+        padding : 20px 30px;
+        display: flex;
+        justify-content: space-between;	
+        top : 0%;
+        right: 0px;
+        height: 12%;
+        background: #2a9662;
+        z-index: 1;
+        /*position: fixed;*/
+        
+    }
+    .logo{
+        position: relative;
+        border-bottom-right-radius: 20px;
+
+    }
+
+    .navigation a{
+
+        position: relative;
+        font-family:'Courier New', Courier, monospace;
+        color: #ffffff;
+        text-decoration: none;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 150%;
+        font-weight:500;
+
+    }
+
+      .btnUser{
+    
+        
+        margin-top: -10px;
+        cursor: pointer;
+        border-radius: 100px;
+        border-width: 3px;
+        width: 45px;
+        height: 47px;
+    }
+
+
+    .navigation a::after{
+        content:'';
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+        width :100%;
+        height: 3px;
+        border-radius: 5px;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .6s;
+        background: rgb(20, 83, 39);
+        
+    }
+
+    .navigation a:hover::after {
+        transform-origin: left;
+        transform: scale(1); 
+
+    }
+
+    .navigation .active {
+    
+        border-style: solid;
+        border-width: 4px;
+        border-top: 0 ;
+        border-left: 0;
+        border-right: 0;
+        border-color: rgb(20, 83, 39); 
+    }
+
+
+#dis1
+{
+	position:absolute;
+	margin-left: 6%;
+	font-family:'Times New Roman', Times, serif;
+	font-size:70px;
+	z-index: 1 ;
+	width: 500px;
+	font-weight: 100;
+	margin-top: 5%;
+	color:  rgb(40, 40, 40);
+	font-style: italic;
+	user-select: none;
+}
+
+
+#dis2
+{
+
+	margin-left: 6%;
+	font-family:'Times New Roman', Times, serif;
+	font-size:70px;
+	z-index: 1 ;
+	width: 500px;
+	font-weight: 100;
+	margin-top: 5%;
+	color:  rgb(40, 40, 40);
+	font-style: italic;
+	user-select: none;
+}
+
+.pro{
+     text-align: center;
+    margin: 0;
+     padding: 0;
+    
+}
+.pro a{
+    margin: 0;
+	font-size: 20px;
+	padding: 0;
+	text-decoration: solid;
+	color: rgb(0, 0, 0);
+	font-weight: 600 ;
+}
+
+
+.fcontainer{
+    max-width: 1170px;
+    margin: auto;
+}
+.footer{
+    bottom: 10px;
+    width: 100%;
+    background: #2a9662;
+    padding: 35px 0;
+}
+.frow{
+    display: flex;
+    flex-wrap: wrap;
+     
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: #fefefe;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+    transition: all .3s ease;
+}
+.footer-col ul li a:hover{
+    color: #fefefe;
+    padding-left: 6px;
+}
+.footer-col .social-link a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: #fefefe;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #0a0a0a;
+    transition: all .5s ease;
+}
+.footer-col .social-link a:hover{
+    color:#11101b;
+    background: #fefefe;
+
+}
+
+
+.footer-col .payment-link a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: #fefefe;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #0a0a0a;
+    transition: all .5s ease;
+}
+.footer-col .payment-link a:hover{
+    color:#11101b;
+    background: #fefefe;
+
+}
+
+@media(max-width:767px){
+    .footer-col{
+        width:100%;
+    }
+}
+
+
+
+.circle-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #555;
+    border: none;
+    color: #000000;
+	margin-top: -5px;
+    
+  }

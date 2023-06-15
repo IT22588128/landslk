@@ -1,0 +1,52 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin: center;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="search"] {
+  padding: 8px;
+  width: 200px;
+}
+
+button.signupbtn {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button.signupbtn:hover {
+  background-color: #45a049;
+}
+
+a img {
+  width: 24px;
+  height: 24px;
+}

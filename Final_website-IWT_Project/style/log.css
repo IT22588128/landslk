@@ -1,0 +1,99 @@
+input[type=text],input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+  
+    button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+  
+    input[type=submit]:hover {
+    background-color: #45a049;
+    }
+  
+    .form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    background-color: rgba(154, 167, 154, 0.2);
+    }
+  
+    .form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color : #006600;
+  }
+  
+    .form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  
+   .form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+    .form button:hover {
+    background-color: #45a049;
+  }
+  
+    .form p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+    .form a {
+    color: #4CAF50;
+  }
+  
+  .form a:hover {
+    color: #45a049;
+  }
+  
+  
+  input[type="checkbox"] {
+  margin-right: 5px;
+  }
+  
+  
+  label {
+  font-weight: bold;
+  color: #333;
+  }
+  
+  
+  .psw a {
+  color: #777;
+  text-decoration: none;
+  }
+  
+  
+  .psw a:hover {
+  text-decoration: underline;
+  }
